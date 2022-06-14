@@ -20,7 +20,7 @@ def solution(lottos, win_nums):
     min_i = count
     max_i = 7 - max_i
     min_i = 7 - min_i
-    if(max_i == 7): #min으로도 풀이 가능 min(6,7-max_i) 하면 작은 수가 나오므로 7이 안나옴
+    if(max_i == 7): #min으로도 풀이 가능 min(6,7-max_i) 하면 작은 수가 나오므로 7이 나오지 않는다
         max_i = 6
     if(min_i == 7):
         min_i = 6
