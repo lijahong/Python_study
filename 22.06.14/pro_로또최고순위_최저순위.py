@@ -1,5 +1,6 @@
 #프로그래머스 lv.1) 로또의 최고 순위와 최저 순위 : 번호를 비교할때 알아볼 수 없는 번호를 0으로 입력하여,
 #0이 정답일 가능성과 아닐 가능성을 비교해 최고 순위와 최저 순위를 출력하시오.
+#https://programmers.co.kr/learn/courses/30/lessons/77484
 
 def solution(lottos, win_nums):
     count = 0
