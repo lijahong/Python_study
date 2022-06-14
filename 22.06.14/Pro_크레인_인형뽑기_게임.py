@@ -1,4 +1,4 @@
-#프로그레머스 Lv1 ) 크레인 인형뽑기 게임
+#프로그레머스 Lv.1 ) 크레인 인형뽑기 게임
 #https://programmers.co.kr/learn/courses/30/lessons/64061
 
 def solution(board, moves):
