@@ -6,4 +6,4 @@
 - ### velog ) https://velog.io/@lijahong : 내용 정리
 - ###  공부 기록
 > - 2022.06.13 : Python & Pycharm 설치, 변수, 연산자, 조건문, 반복문   
-> - 2022.06.14 : 반복문 마무리, list, dictionary, function
+> - 2022.06.14 : 반복문 마무리, list, dictionary, function, 문자열, function
