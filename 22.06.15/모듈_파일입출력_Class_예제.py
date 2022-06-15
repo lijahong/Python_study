@@ -25,3 +25,28 @@ f = open("C:\\python_csvdata\\test2.txt","w")
 f.writelines("안녕하세요.")
 
 f.close()
+
+#클래스 생성자
+
+class Student:
+    name = ""
+    age = 0
+    status = ""
+    
+    def __init__(self,name,age,status):
+        self.name = name
+        self.age = age
+        self.status = status
+        
+    def change_status(self, status):
+        self.status = status
+
+
+#상속
+
+class EngStudent(Student):
+    room = 201
+    studyclass = "python"
+    
+    def __init__(self,name,age,status):
+        super(EngStudent, self).__init__(name,age,status)
