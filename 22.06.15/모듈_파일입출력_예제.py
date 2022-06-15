@@ -7,7 +7,7 @@ i = ad( 3,4 )
 print(i)
 
 # 2. 파일 입출력
-
+# 읽기
 f = open("C:\\python_csvdata\\test3.csv","r",encoding ="utf-8")
 while True:
     contents = f.readline() #한줄을 읽어낸다
@@ -17,4 +17,11 @@ while True:
     num = contents2[1] #이름만
     name = contents2[24] #주소만
     print(num + " , " + name)
+f.close()
+
+#쓰기
+f = open("C:\\python_csvdata\\test2.txt","w")
+
+f.writelines("안녕하세요.")
+
 f.close()
